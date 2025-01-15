@@ -44,7 +44,10 @@ const Navbar = () => {
                                 <Link href="/gallery">
                                     <h1 className="text-xl md:text-lg text-black hover:text-[#16A8AF] cursor-pointer">Gallery</h1>
                                 </Link>
-                                <Link href="#">
+                                <Link href="/services">
+                                    <h1 className="text-xl md:text-lg text-black hover:text-[#16A8AF] cursor-pointer">Services</h1>
+                                </Link>
+                                <Link href="/contactUs">
                                     <h1 className="text-xl md:text-lg text-black hover:text-[#16A8AF] cursor-pointer">Contact Us</h1>
                                 </Link>
                             </div>
@@ -70,7 +73,10 @@ const Navbar = () => {
                         <Link href="/gallery">
                             <h1 className="text-base md:text-lg text-white hover:text-[#16A8AF] cursor-pointer">Gallery</h1>
                         </Link>
-                        <Link href="#">
+                        <Link href="/services">
+                            <h1 className="text-base md:text-lg text-white hover:text-[#16A8AF] cursor-pointer">Services</h1>
+                        </Link>
+                        <Link href="/contactUs">
                             <h1 className="text-base md:text-lg text-white hover:text-[#16A8AF] cursor-pointer">Contact Us</h1>
                         </Link>
                     </div>

@@ -40,7 +40,7 @@ const HomeHerosection = () => {
                 Apply Now
               </button>
             </div>
-            <div className=" w-[90%] md:w-[70%] text-white mt-[50px]">
+            <div className=" w-[90%] md:w-[70%] text-white mt-[30px]">
               <div className="text-xs md:text-sm lg:text-lg flex flex-col gap-2 md:gap-3 w-full md:w-[70%]  mt-3">
                 <h1 className="flex gap-2">
                   <span className="mt-[2px] md:mt-[5px] ">
@@ -71,39 +71,23 @@ const HomeHerosection = () => {
           </div>
         </div>
 
-        <div className="w-full h-fit xl:h-[20vh] bg-[#fffbef] ">
-          <div className="w-[80%] mx-auto h-full sm:flex sm:flex-wrap sm:justify-start gap-2 sm:gap-2 sm:items-center  sm:mt-0 ">
-            <div className="lg:border-r-2  border-black px-3 flex flex-col items-center justify-center gap-1 ">
-              <h1 className="text-2xl sm:text-2xl lg:text-[35px] text-black font-bold">
-                12+
-              </h1>
-              <p className="text-sm sm:text-base text-center break-words">
-                Years of Experience
-              </p>
+        <div className="w-full bg-[#fffbef] h-[125px]">
+          <div className="w-[80%] sm:w-[80%] md:w-[100%] lg:w-[80%] xl:w-[60%] xl:mx-0  flex flex-wrap items-center gap-4 sm:gap-8 justify-center h-auto py-4 ">
+            <div className="text-center h-[100px] w-[150px] pr-4 border-r-2 border-black">
+              <p className="text-5xl md:text-3xl font-semibold">12+</p>
+              <p>Lorem ipsum dolor sit amet.</p>
             </div>
-            <div className="lg:border-r-2 border-black px-3 md:px-3 flex flex-col items-center justify-center gap-1  mt-4 sm:mt-0 ">
-              <h1 className="text-2xl sm:text-2xl lg:text-4xl text-black font-bold">
-                1000+
-              </h1>
-              <p className="text-sm sm:text-base text-center break-words">
-                Satisfied students <br /> counselled
-              </p>
+            <div className="text-center h-[100px] w-[150px] pr-4 border-r-2 border-black">
+              <p className="text-5xl md:text-3xl font-semibold">1000+</p>
+              <p>Lorem ipsum dolor sit amet.</p>
             </div>
-            <div className="lg:border-r-2 border-black px-3 md:px-3 flex flex-col items-center justify-center gap-1  mt-4 sm:mt-0 ">
-              <h1 className="text-2xl sm:text-2xl lg:text-4xl text-black font-bold">
-                10+
-              </h1>
-              <p className="text-sm sm:text-base  text-center break-words">
-                Universities <br /> affiliated with us!
-              </p>
+            <div className="text-center h-[100px] w-[150px] pr-4 border-r-2 border-black">
+              <p className="text-5xl md:text-3xl font-semibold">10</p>
+              <p>Lorem ipsum dolor sit amet.</p>
             </div>
-            <div className="px-3 md:px-3 flex flex-col items-center justify-center  gap-1 mt-4 sm:mt-0 ">
-              <h1 className="text-2xl sm:text-2xl lg:text-4xl text-black font-bold">
-                100+
-              </h1>
-              <p className="text-sm sm:text-base  text-center break-words">
-                Vice Assistance
-              </p>
+            <div className="text-center h-[100px] w-[150px] pr-4 ">
+              <p className="text-5xl md:text-3xl font-semibold">100</p>
+              <p>Lorem ipsum dolor sit amet.</p>
             </div>
           </div>
         </div>
